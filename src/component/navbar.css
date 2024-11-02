@@ -1,0 +1,107 @@
+/* Container for navbar */
+.nav-container {
+
+    padding: 10px 60px 10px 60px;
+    height: 60px; /* Increased to fit the menu icon and title */
+    background-color: #333; /* Dark background for contrast */
+}
+
+/* Navbar title styling */
+nav{
+  
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav img{
+
+
+    width: 60px;
+    height: 60px;
+}
+
+/* Flex container for menu and icon */
+.menu-flex {
+ 
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between icon and menu items */
+}
+
+/* Initial styling for menu list */
+ul {
+    visibility: hidden; /* Hidden by default */
+    list-style: none;
+
+    animation: floatIn 1s ease-in-out;
+}
+
+/* Styling for each menu item */
+li {
+    color: white;
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(35, 198, 198);
+    text-underline-offset: 8px;
+}
+
+/* Hamburger icon */
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Menu visibility toggle */
+ul.visible {
+    visibility: visible;
+  
+}
+
+/* Animation for menu appearance */
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(100%);
+    }
+}
+
+@media screen and (max-width: 481px) {
+    li {
+      
+        font-size: 14px;
+        
+    }
+    .btn {
+   
+        width: 22px;
+        height: 12px;
+      
+    }
+    nav img{
+
+
+        width: 40px;
+        height: 40px;
+    }
+    
+  
+}

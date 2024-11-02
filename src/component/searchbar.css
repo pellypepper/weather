@@ -1,0 +1,38 @@
+.search-button{
+    width: 30%;
+     height:50px;
+      border:none;
+      color:white;
+       background-color: #333;
+      font-size: 1.2rem;
+}
+.search-input{
+    width:70%;
+     height:"";
+     padding: 15px;
+      border:none;
+      outline:none;
+}
+.search-form{
+    border: 2px solid #333;
+    background-color: #fff;
+    width: 70%;
+     display: flex;
+     align-items: center;
+     height: 50px;
+     overflow: hidden;
+}
+.search-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media screen and (max-width: 567px) {
+
+.search-button{
+    font-size: .8rem;
+}
+}

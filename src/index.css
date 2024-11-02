@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.letter-animation {
+  font-size: 3rem; /* Adjust the size as needed */
+  color: #3498db; /* Change to any color you prefer */
+  overflow: hidden; /* Hide overflow for smoother animation */
+  white-space: nowrap; /* Prevent wrapping */
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.image-text {
+
+  font-size: 5rem;
+  font-weight: bold;
+  background-image: url('./assets/textbg1.jpg'); /* Corrected syntax for the URL */
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; /* This makes only the background image visible */
+  display: inline-block;
+}
+
+.wrapper{
+  color: "black";
+  position: "relative";
+  z-Index: 1;
+ 
+  padding: "20px";
+}
