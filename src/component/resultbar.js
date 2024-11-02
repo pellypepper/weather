@@ -7,21 +7,7 @@ export default function ResultBar({ data }) {
   
 
        
-    const divStyle3 = {
-        boxShadow: "0px 5px 20px 2px white",
-        width: "400px",
-         height: "300px", 
-         display:"flex", 
-         flexDirection:"column",
-         padding:"20px",
-         lineHeight:"1.5",
-         borderRadius: "10px",
-         transition: "ease-in-out 0.5s",
-         marginLeft:"5rem",
-         animation: "fadeIn 2s ease-in-out",
-         
-   }
-
+  
 
     // Check if data is available and valid
     if (!data) {
