@@ -36,7 +36,7 @@ export default function Forecast() {
     }
 
     return (
-        <div style={{backgroundColor: "#222222", Height:"max-content", overflow:"hidden",position:'relative', width:"100%"}}>
+        <div style={{backgroundColor: "#222222", height:"max-content", overflow:"hidden",position:'relative', width:"100%"}}>
         <>
   
                 <Wallpaper>
