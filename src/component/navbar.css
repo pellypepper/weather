@@ -84,7 +84,7 @@ ul.visible {
     }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 56px) {
     li {
       
         font-size: 14px;
@@ -102,6 +102,15 @@ ul.visible {
         width: 40px;
         height: 40px;
     }
+    nav{
+  
+        width: 90%;
+         display: flex;
+         justify-content: space-between;
+         margin-top: auto;
+         
+     }
+       
     
   
 }
