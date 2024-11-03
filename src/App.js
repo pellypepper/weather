@@ -56,7 +56,7 @@ const [data, setData] = useState(null);
             <Background style={{height:"150vh"}}  >
             <div className='wrapper' >
           
-              <div style={{textAlign:"center", marginTop:"2rem",border:"2px solid black", width:"100%"}}>
+              <div style={{textAlign:"center", marginTop:"2rem",height:"max-content", padding:10, width:"100%"}}>
               <h1  className='image-text'>{displayedValue}</h1>;
               </div>
                 <SearchBar verifyURL={verifyURL} />
