@@ -32,7 +32,7 @@ code {
 }
 .image-text {
 
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   background-image: url('./assets/textbg1.jpg'); /* Corrected syntax for the URL */
   background-size: cover;
