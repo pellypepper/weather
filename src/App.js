@@ -26,7 +26,7 @@ const [data, setData] = useState(null);
     
     const [displayedValue, setDisplayedValue] = useState('');
     const [index, setIndex] = useState(0);
-    const letterDelay = 2; // Time between letters in milliseconds
+    const letterDelay = 10; // Time between letters in milliseconds
 
     useEffect(() => {
         if (index < word.length) {
