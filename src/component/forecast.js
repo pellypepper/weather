@@ -37,11 +37,11 @@ export default function Forecast() {
 
     return (
         <>
-            <div style={{backgroundColor: "#222222", maxHeight:"max-content", overflow:"hidden"}}>
-                <Wallpaper>
+            <div style={{backgroundColor: "#222222",height:"100vh", overflow:"hidden", position: "relative"}}>
+            <Wallpaper>
                     <div style={{width:"100%" , scrollBehavior:"smooth" }}>
                         <NavBar />
-                        
+                
                         <div style={{marginTop:"1rem", padding:"20px"}}>
                             <h1 style={{ color: "white", zIndex: 1, position: "relative", marginLeft: "2rem"}}>Forecast</h1>
                             
@@ -98,8 +98,9 @@ export default function Forecast() {
                                 </div>
                             )}
                         </div>
+               
                     </div>
-                </Wallpaper>
+                    </Wallpaper>
             </div>
         </>
     );

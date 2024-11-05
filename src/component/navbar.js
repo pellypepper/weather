@@ -25,7 +25,7 @@ export default function NavBar() {
                     <ul ref={menuRef}>
                         <Link to="/" > <li>Home</li></Link>
                         <Link to='/forecast'><li>Forecast</li></Link>
-                        <Link to='/history'><li>History</li></Link>
+                        {/* <Link to='/history'><li>History</li></Link> */}
                     </ul>
                     <div className='btn' onClick={handleClick} >
                         <div className="bar"></div>

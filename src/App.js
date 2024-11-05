@@ -11,15 +11,7 @@ import "./index.css";
 function App({word}) {
 
 const [data, setData] = useState(null);
-    const divStyle = {
-        
-    };
-
-    const divStyle2 = {
-     
-    
-     
-    };
+   
 
     async function verifyURL(input) {
         const weatherData = await Weather.fetchCurrentWeather(input); // Fetch current weather data
