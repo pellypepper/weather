@@ -11,7 +11,11 @@ import "./index.css";
 function App({word}) {
 
 const [data, setData] = useState(null);
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 3ce27ec60b1a3b3a4a76648b40e0749506afc678
 
     async function verifyURL(input) {
         const weatherData = await Weather.fetchCurrentWeather(input); // Fetch current weather data
@@ -26,7 +30,7 @@ const [data, setData] = useState(null);
     
     const [displayedValue, setDisplayedValue] = useState('');
     const [index, setIndex] = useState(0);
-    const letterDelay = 100; // Time between letters in milliseconds
+    const letterDelay = 150; // Time between letters in milliseconds
 
     useEffect(() => {
         if (index < word.length) {
@@ -56,8 +60,8 @@ const [data, setData] = useState(null);
             <Background style={{height:"150vh"}}  >
             <div className='wrapper' >
           
-              <div style={{textAlign:"center", marginTop:"2rem"}}>
-              <h1  className='image-text' style={{textAlign:"center", marginTop:"2rem", fontSize:'65px'}}>{displayedValue}</h1>;
+              <div style={{textAlign:"center", marginTop:"2rem",height:"max-content", padding:10, width:"100%"}}>
+              <h1  className='image-text'>{displayedValue}</h1>;
               </div>
                 <SearchBar verifyURL={verifyURL} />
                 <ResultBar data={data}  /> {/* Pass history to ResultBar if needed */}
