@@ -6,12 +6,7 @@ export default function ResultBar({ data }) {
   
   
 
-<<<<<<< HEAD
 
-=======
-       
-  
->>>>>>> 3ce27ec60b1a3b3a4a76648b40e0749506afc678
 
     // Check if data is available and valid
     if (!data) {

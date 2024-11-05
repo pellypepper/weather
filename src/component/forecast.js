@@ -36,15 +36,9 @@ export default function Forecast() {
     }
 
     return (
-        <div style={{backgroundColor: "#222222", height:"max-content", overflow:"hidden",position:'relative', width:"100%"}}>
         <>
-<<<<<<< HEAD
             <div style={{backgroundColor: "#222222",height:"100vh", overflow:"hidden", position: "relative"}}>
             <Wallpaper>
-=======
-  
-                <Wallpaper>
->>>>>>> 3ce27ec60b1a3b3a4a76648b40e0749506afc678
                     <div style={{width:"100%" , scrollBehavior:"smooth" }}>
                         <NavBar />
                 
@@ -106,14 +100,8 @@ export default function Forecast() {
                         </div>
                
                     </div>
-<<<<<<< HEAD
                     </Wallpaper>
             </div>
-=======
-                </Wallpaper>
-       
->>>>>>> 3ce27ec60b1a3b3a4a76648b40e0749506afc678
         </>
-        </div>
     );
 }

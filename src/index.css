@@ -31,8 +31,8 @@ code {
   }
 }
 .image-text {
-   
-  font-size: 3rem;
+
+  font-size: 5rem;
   font-weight: bold;
   background-image: url('./assets/textbg1.jpg'); /* Corrected syntax for the URL */
   background-size: cover;
@@ -49,11 +49,4 @@ code {
   z-Index: 1;
  
   padding: "20px";
-}
-
-@media screen and (max-width: 567px) {
-  .image-text {
-    font-size: 2rem;
-  }
-  
 }
