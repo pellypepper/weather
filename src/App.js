@@ -57,7 +57,7 @@ const [data, setData] = useState(null);
             <div className='wrapper' >
           
               <div style={{textAlign:"center", marginTop:"2rem"}}>
-              <h1  className='image-text' style={{textAlign:"center", marginTop:"2rem", fontSize:'65px'}}>{displayedValue}</h1>;
+              <h1  className='image-text' style={{textAlign:"center", marginTop:"2rem"}}>{displayedValue}</h1>;
               </div>
                 <SearchBar verifyURL={verifyURL} />
                 <ResultBar data={data}  /> {/* Pass history to ResultBar if needed */}
